@@ -101,6 +101,14 @@ body{
     gap: 1.2rem;
 }
 
+.resumo > div strong{
+    color: var(--dark-navy);
+}
+
+.resumo > div strong span{
+    opacity: 0.5;
+}
+
 .reacao{
     background: var(--reacao-bg) var(--resumo-div-bg);
     color: var(--reacao-bg);
@@ -123,4 +131,16 @@ body{
 
 .resumo > div strong{
     font-weight: 800;
+}
+
+.resumo button{
+    margin-top: 0.8rem;
+    width: 100%;
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    border: none;
+    background: var(--dark-navy);
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 700;
 }
